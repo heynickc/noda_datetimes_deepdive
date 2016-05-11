@@ -76,6 +76,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="TestingWithIClock.cs" />
     <Compile Include="ToJson.cs" />
     <Compile Include="WithBCLDateTime.cs" />
     <Compile Include="WithNodaTime.cs" />
