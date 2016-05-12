@@ -23,7 +23,9 @@ namespace DateTimesDeepDive {
             var stock = new Stock();
             var marketDay = new MarketDay(
                 Instant.FromUtc(2016, 5, 8, 0, 0));
+
             var myClass = new MyClassNodaTime(stock, marketDay, clock);
+
             Assert.Equal("Thing1 done!", myClass.thingState);
         }
 
@@ -34,7 +36,9 @@ namespace DateTimesDeepDive {
             var stock = new Stock();
             var marketDay = new MarketDay(
                 Instant.FromUtc(2016, 5, 8, 0, 0));
+
             var myClass = new MyClassNodaTime(stock, marketDay, clock);
+
             Assert.Equal("Thing2 done!", myClass.thingState);
         }
     }
